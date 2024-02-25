@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ededf0;
+}
+
+.card {
+  width: 320px;
+  aspect-ratio: 1/1.1;
+  margin: 30vh auto;
+  background-color: white;
+  border-radius: 12px;
+  border: 2px solid #ededf0;
+}
+
+.hand-emoji {
+  width: 15%;
+  display: block;
+  margin: 20px auto;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 30px;
+  color: #222224;
+}
+
+.description {
+  color: #646466;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  background-color: #f3f3f5;
+  margin: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.briefcase-emoji,
+.house-emoji {
+  width: 20px;
+  margin: 10px;
+}
+
+.work-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  /* background-color: #f3f3f5; */
+  margin: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}

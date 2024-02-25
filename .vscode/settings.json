@@ -1,0 +1,7 @@
+{
+  "workbench.editor.enablePreview": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on"
+}

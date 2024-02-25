@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #6e6d6f;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: azure;
+    border:2px solid blueviolet;
+    cursor: pointer;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}

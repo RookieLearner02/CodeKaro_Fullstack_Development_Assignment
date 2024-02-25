@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card 01</title>
+    <link rel="stylesheet" href="./card1.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="./card01.png" alt="user checking his email" />
+      <h3>Check Your email</h3>
+      <p>Enter the 6-digit code we just sent to</p>
+      <p><span>dummy_account@dummy.com</span> to continue.</p>
+      <div class="input-submit">
+        <input
+          type="password"
+          name="code"
+          id="secure-code"
+          maxlength="6"
+          pattern="[0-9]{6}"
+          class="secure-code"
+        />
+        <button type="submit" class="submit">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
